@@ -3,3 +3,40 @@ body {
   height: 100%;
   margin: 0;
 }
+
+#featured-property,header {
+  text-align: center;
+}
+
+nav>a{
+  padding: left 10px; right: 10px;
+  background-color: green;
+}
+
+h1{
+  color: black;
+}
+
+figcaption{
+  text-align: center;
+  font-size: small;
+}
+
+.wrapper{
+  height: 200px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="featured-property"]{
+  width: 800px;
+  text-align: right;
+}
+
+#details>div{
+  float: left;
+  text-align: center;
+  width: 25%;
+  background-color: green;
+}
